@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="stylesheets/main.css" type="text/css" media="screen" charset="utf-8" />
+
+  <!--include the requred scripts-->
+  <script src="js/jquery-1.6.2.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Singleton.js" type="text/javascript" charset="utf-8"></script>  
+  <script src="js/Game.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/TextureManager.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Level.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Vector.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Rect.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Sprite.js" type="text/javascript" charset="utf-8"></script>  
+  <script src="js/Runner.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Block.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Bridge.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/Layer.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+  
+
+  <title>65-73-63</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">65-73-63<span id="me"><a href="http://austinbirch.co.uk">by austinbirch</a></h1>
+
+
+    <canvas id="game_canvas" width="768" height="480">
+
+    </canvas>
+
+    <div id="controls">
+      <h2>Help Tom escape!</h2>
+      <p>Control the bridges to help him escape the overgrown Earth Bees! BBZZZZZZ</p>
+      <h3>Controls:</h3>
+      <p>Press <strong>SPACE</strong> to operate the bridges. It’s simply a matter of timing. You are the only thing that stands between 
+        Tom and him being stung to death by two overgrown Earth Bees!</p>
+    </div>
+
+    <div class="game_elements">
+      <h3>Game elements</h3>      
+      <p><strong>Bridge:</strong></p>
+      <p>Extendible, and more importantly, sturdy. Tom loves them.    
+      <div id="bridge">&nbsp;
+      </div>
+    </div>
+
+    <div id="information">
+      <h3>Information</h3>
+      <ul>
+        <li>This was created during <a href="http://www.ludumdare.com">Ludum Dare 21</a>, where you program a game from scratch, within 48 hours. I started late. The theme for Ludum Date #21 was “Escape.”</li>
+        <li><em>65-73-63</em> is “esc” in hex. : )</li>
+        <li>I planned to put in launchers, boosters, and doors. I just did not have the time. I’ll probably do that later on.</li>
+        <li>The level is really short. I was going to try randomly generate the level, but I didn’t get around to that either. Maybe in an update.</li>
+        <li>My goal for Ludum Dare 21 was to get some familiarity with <a href="coffeescript.org/">CoffeeScript</a>, as I’ll be using it when Rails 3.1 is released. I feel I did that, and I love it.</li>
+        <li>I’m <a href="https://twitter.com/austinbirch">@austinbirch</a> on Twitter, and my blog is <a href="http://austinbirch.co.uk">here.</a></li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>

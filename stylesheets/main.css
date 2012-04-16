@@ -1,0 +1,52 @@
+/* resets */
+
+* { margin: 0; padding: 0; }
+html { font-size: 62.5%; overflow-y: scroll; }
+
+/* type */
+h1, h2, h3, p { font-family: Georgia, serif; color: #000; }
+h1, h2, h3 { font-weight: normal; font-style: italic; }
+
+ul, li { font-size: 16px; font-size: 1.6rem; line-height: 22px; line-height: 2.2rem; }
+ul { padding-left: 11px; margin-left: 1.1rem; }
+li { margin-bottom: 11px; margin-bottom: 1.1rem; }
+
+a { color: #A52625; text-decoration: none; }
+
+h1#title { font-style: normal; }
+span#me { font-size: 16px; font-size: 1.6rem; line-height: 22px; line-height: 3.6rem; float: right; }
+
+p { font-size: 16px; font-size: 1.6rem; line-height: 22px; line-height: 2.2rem; margin-bottom: 22px; margin-bottom: 2.2rem; }
+h1 { font-size: 36px; font-size: 3.6rem; line-height: 22px; line-height: 2.2rem; margin-bottom: 22px; margin-bottom: 2.2rem; }
+h2 { font-size: 21px; font-size: 2.1rem; line-height: 22px; line-height: 2.2rem; margin-bottom: 11px; margin-bottom: 1.1rem; }
+h3 { font-size: 18px; font-size: 1.8rem; line-height: 22px; line-height: 2.2rem; margin-bottom: 11px; margin-bottom: 1.1rem; }
+
+/* layout */
+body { background-color: #eee; }
+.container {
+  background-color: #f9f9f9;
+  width: 768px;
+  padding: 22px 10px;
+  padding: 2.2rem 1.0rem;
+  margin: 22px auto;
+  margin 2.2rem auto;
+}
+
+/* canvas styles */
+canvas#game_canvas {
+  margin-bottom: 11px;
+  margin-bottom: 1.1rem;
+  background-color: #501266;
+}
+
+div#bridge {
+  width: 160px;
+  height: 16  px;
+  background-color: #006400;
+}
+
+div#information { width: 70%; }
+
+div { padding: 22px 0; padding: 2.2rem 0; }
+div.game_elements { border-bottom: 1px solid #333; border-top: 1px solid #333; }
+div.game_elements p { margin-bottom: 11px; }

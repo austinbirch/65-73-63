@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<columns>
+  <column>
+    <block>
+      <index>0</index>
+      <type>1</type>
+    </block>
+  </column>
+  <column>
+    <block>
+      <index>0</index>
+      <type>1</type>
+    </block>
+    <block>
+      <index>1</index>
+      <type>1</type>
+    </block>
+  </column>
+</columns>
